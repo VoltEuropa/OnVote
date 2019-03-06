@@ -53,7 +53,7 @@
         tag.textContent = dictionary[tag.getAttribute('data-i18n')];
       }
       // Sonderlocke
-      gadget.element.querySelector('[data-i19n]').setAttribute("value", dictionary[TITLE]);
+      // gadget.element.querySelector('[data-i19n]').setAttribute("value", dictionary[TITLE]);
     })
 
     /////////////////////////////
